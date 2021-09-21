@@ -43,34 +43,78 @@
         <div class="container">
             <h1 class="display-1 fw-bold my-5">Comidas del fin del mundo</h1>
             <p class="my-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae rerum delectus facere! Voluptate, minus! Molestiae quaerat velit voluptate nesciunt atque nam veniam perspiciatis expedita quia, esse ipsum distinctio eligendi dolorum.</p>
-            <a href="#" class="btn btn-outline-info btn-lg">Trabajos</a>
-            <a href="#" class="btn btn-info btn-lg">Contacto</a>
+            <a href="#trabajos" class="btn btn-outline-info btn-lg">Trabajos</a>
+            <a href="#contacto" class="btn btn-info btn-lg">Contacto</a>
         </div>
     </header>
 
-    <section id="acercaDeMi" class="container text-center my-5 p-4">
-        <h2 class="display-3 fw-bold my-4">Acerca de mí</h2>
-        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem saepe vel vero voluptatem dignissimos quasi atque autem optio facere, architecto reiciendis illum laudantium facilis repellendus, ipsam, necessitatibus ea? Autem, ex.</p>
+    <div class="container my-5 py-3">
+      <div class="row">
+        <div class="col-4 p-4 text-end">
+          <h2 class="fw-bold">Me has visto en:</h2>
+        </div>
+        <div class="col-8 bg-secondary text-white rounded pt-4 pb-5">
+          <!-- Carousel -->
+          <div id="blogCarousel" class="carousel slide" data-bs-ride="carousel"">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#blogCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            </div>
+            <div class="carousel-inner text-center">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-3"><i class="fab fa-codepen fa-2x" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom" data-bs-content="Codepen"></i></div>
+                  <div class="col-3"><i class="fab fa-apper fa-2x" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom" data-bs-content="Apper"></i></div>
+                  <div class="col-3"><i class="fab fa-angrycreative fa-2x" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom" data-bs-content="Angry Creative"></i></div>
+                  <div class="col-3"><i class="fab fa-google-plus-g fa-2x" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom" data-bs-content="Google"></i></div>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <div class="row">
+                  <div class="col-3"><i class="fab fa-500px fa-2x" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom" data-bs-content="500Pixel"></i></div>
+                  <div class="col-3"><i class="fab fa-apple fa-2x" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom" data-bs-content="Apple"></i></div>
+                  <div class="col-3"><i class="fab fa-aviato fa-2x" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom" data-bs-content="Aviato"></i></div>
+                  <div class="col-3"><i class="fab fa-d-and-d fa-2x" data-bs-container="body" data-bs-toggle="popover" data-bs-trigger="hover focus" data-bs-placement="bottom" data-bs-content="d-and-d"></i></div>
+                </div>
+              </div>
+            </div>
 
-        <div class="row">
-            <div class="col-md-4">
-                <i class="fas fa-camera fa-3x my-3"></i>
-                <h3 class="my-3">Fotógrafa de comida</h3>
-                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum sint officiis corporis</p>
-            </div>
-            <div class="col-md-4">
-                <i class="fas fa-bullhorn fa-3x my-3"></i>
-                <h3 class="my-3">Crítica culinaria</h3>
-                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum sint officiis corporis</p>
-            </div>
-            <div class="col-md-4">
-                <i class="far fa-map fa-3x my-3"></i>
-                <h3 class="my-3">Bloggera de viajes</h3>
-                <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum sint officiis corporis</p>
-            </div>
+          </div>
         </div>
 
+      </div>
+
+      <!-- sección about -->
+    <section id="acercaDeMi" class="container text-center my-5 p-4">
+      <h2 class="display-3 fw-bold my-4">Acerca de mí</h2>
+      <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem saepe vel vero voluptatem dignissimos quasi atque autem optio facere, architecto reiciendis illum laudantium facilis repellendus, ipsam, necessitatibus ea? Autem, ex.</p>
+
+      <div class="row">
+          <div class="col-md-4">
+              <i class="fas fa-camera fa-3x my-3"></i>
+              <h3 class="my-3">Fotógrafa de comida</h3>
+              <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum sint officiis corporis</p>
+          </div>
+          <div class="col-md-4">
+              <i class="fas fa-bullhorn fa-3x my-3"></i>
+              <h3 class="my-3">Crítica culinaria</h3>
+              <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum sint officiis corporis</p>
+          </div>
+          <div class="col-md-4">
+              <i class="far fa-map fa-3x my-3"></i>
+              <h3 class="my-3">Bloggera de viajes</h3>
+              <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam nostrum sint officiis corporis</p>
+          </div>
+      </div>
+
     </section>
+
+    </div>
+
+    
+
+
+    
 
     <section id="trabajos" class="container-fluid my-5 p-5 bg-info">
       <h2 class="display-3 text-center fw-bold text-light">Mis trabajos</h2>
@@ -81,7 +125,7 @@
             <div class="card-body">
               <h5 class="card-title">Asado en la Patagonia</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-              <a href="#" class="btn btn-outline-info">Ver más</a>
+              <a href="#" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#asado">Ver más</a>
             </div>            
           </div>
         </div>
@@ -91,7 +135,7 @@
             <div class="card-body">
               <h5 class="card-title">Papas del fin del mundo</h5>
               <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
-              <a href="#" class="btn btn-outline-info">Ver más</a>
+              <a href="#" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#papas">Ver más</a>
             </div> 
           </div>
         </div>
@@ -101,7 +145,7 @@
             <div class="card-body">
               <h5 class="card-title">Salmones de Alaska</h5>
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
-              <a href="#" class="btn btn-outline-info">Ver más</a>
+              <a href="#" class="btn btn-outline-info" data-bs-toggle="modal" data-bs-target="#salmones">Ver más</a>
             </div>          
           </div>
         </div>
@@ -109,10 +153,77 @@
 
     </section>
 
-    <section id="contacto" class="Container my-5 text-center">
+    <!-- Modal, para sección "mis trabajos" -->
+    <div class="modal fade" id="asado" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Asado en la Patagonia</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/assets/img/card-1.jpg" class="img-fluid my-3" alt="asado">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, numquam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, debitis accusamus optio facilis officiis minima enim ipsum at, cumque animi facere architecto repellat.</p>
+            <p>Lorem ipsum dolor sit amet.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="papas" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Papas del fin del mundo</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/assets/img/card-2.jpg" class="img-fluid my-3" alt="papas">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quos, numquam!</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, debitis accusamus optio facilis officiis minima enim ipsum at, cumque animi facere architecto repellat.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus ad alias repellat voluptas, debitis provident expedita! Facere, molestias doloremque mollitia, vel veniam sequi adipisci ipsum eius perspiciatis natus similique deserunt.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="salmones" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Salmones de Alaska</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <img src="/assets/img/card-3.jpg" class="img-fluid my-3" alt="salmon">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae aliquid a, consectetur odio recusandae tenetur perferendis, at amet, dignissimos impedit possimus deleniti? Explicabo officia, adipisci modi architecto excepturi sit nihil!</p>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas cumque, earum nostrum molestiae cupiditate facere veniam perspiciatis voluptatum culpa nobis soluta aut dolores eos harum quae, aspernatur similique perferendis obcaecati?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione reiciendis laboriosam adipisci omnis voluptatum iure dolore dignissimos quidem tempora, odio nesciunt aliquid a cupiditate voluptas dolores libero facere laudantium consequuntur.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- sección contáctame -->
+    <section id="contacto" class="Container m-5 text-center">
       <h2 class="display-3 fw-bold my-4">Contáctame</h2>
       <p class="text-center my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita velit sed non voluptatem cumque.</p>
-      <form>
+
+      <!-- Formulario typeform -->
+      <div data-tf-widget="iKOX1OVM" data-tf-opacity="92" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+
+      <!-- Formulario bootstrap -->
+      <!-- <form>
         <div class="mb-3">
           <label for="formGroupExampleInput" class="form-label">Nombre</label>
           <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Nombre">
@@ -129,7 +240,7 @@
         <div class="text-end">
         <button type="submit" class="btn btn-info text-light">Enviar</button>
         </div>
-      </form>
+      </form> -->
 
     </section>
 
@@ -139,9 +250,12 @@
 
 
     <!--jQuerys-->
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 
     <!-- Option 1: Bootstrap Bundle with Popper-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
   
+    <!-- mi script JS -->
+    <script src="/assets/js/script.js"></script>
 </body>
 </html>
