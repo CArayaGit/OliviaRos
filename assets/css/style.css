@@ -11,10 +11,11 @@ header {
 }
 
 .carousel-indicators {
+    position: absolute;
     top: 50px;
 }
 
-.carousel-indicators button {
+.carousel-indicators [data-bs-target] {
     width: 10px;
     height: 10px;
     border-radius: 50%;
